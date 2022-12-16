@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/burger-builder-app/static/css/main.8164533c.css",
+    "main.js": "/burger-builder-app/static/js/main.d5c5af06.js",
+    "static/media/salad.svg": "/burger-builder-app/static/media/salad.5b86138d220419b2f235.svg",
+    "static/media/bacon.svg": "/burger-builder-app/static/media/bacon.eeca2d055efeb2ead659.svg",
+    "static/media/tomato.svg": "/burger-builder-app/static/media/tomato.5ff892f87ea34319578d.svg",
+    "static/media/gilroy-bold-webfont.woff": "/burger-builder-app/static/media/gilroy-bold-webfont.d57c54a16decc4f4adad.woff",
+    "static/media/gilroy-regular-webfont.woff": "/burger-builder-app/static/media/gilroy-regular-webfont.bc44fd7f7a5d4bcd9b22.woff",
+    "static/media/pickle.svg": "/burger-builder-app/static/media/pickle.d6adfeadda9e49f8e8df.svg",
+    "static/media/meat.svg": "/burger-builder-app/static/media/meat.1b5ae1cc57abe78faa30.svg",
+    "static/media/gilroy-bold-webfont.woff2": "/burger-builder-app/static/media/gilroy-bold-webfont.d84b042307cf47ce2165.woff2",
+    "static/media/gilroy-regular-webfont.woff2": "/burger-builder-app/static/media/gilroy-regular-webfont.9cc2fab347dc9c873332.woff2",
+    "static/media/cheese.svg": "/burger-builder-app/static/media/cheese.de4ad9cfec1fec0a0b66.svg",
+    "index.html": "/burger-builder-app/index.html",
+    "main.8164533c.css.map": "/burger-builder-app/static/css/main.8164533c.css.map",
+    "main.d5c5af06.js.map": "/burger-builder-app/static/js/main.d5c5af06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8164533c.css",
+    "static/js/main.d5c5af06.js"
+  ]
+}
