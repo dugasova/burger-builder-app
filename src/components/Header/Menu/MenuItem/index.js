@@ -5,7 +5,7 @@ const MenuItem = ({ children }) => {
 };
 
 const MenuItemStyled = styled.li({
-  marginLeft: 10,
+  marginLeft: "10px",
   cursor: "pointer",
   width: '56px',
   height: "37px",

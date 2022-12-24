@@ -15,7 +15,6 @@ const Header = () => {
   
 const HeaderStyled = styled.div({
   background: "linear-gradient(#bc581e, #e27b36)",
-  boxShadow: "inset -15px 0 #c15711",
   height: "15vh",
   display: "flex",
   justifyContent: "space-between",

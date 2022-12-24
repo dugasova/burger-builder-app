@@ -8,7 +8,7 @@ import './index.css';
 const App = ()=> {
     return(
     <AppWrapper classname="App">
-        <Header />
+         <Header />
          <Main />
     </AppWrapper>
     );
