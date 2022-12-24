@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'gilroy';
+  src: url('./assets/fonts/fonts/gilroy-bold-webfont.woff2') format('woff2'),
+      url('./assets/fonts/fonts/gilroy-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('./assets/fonts/fonts/gilroy-regular-webfont.woff') format('woff2'),
+      url('./assets/fonts/fonts/gilroy-regular-webfont.woff2') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: gilroy, serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #f4bd57 0%, #d08412 100%);
+  /* background: linear-gradient(#bc581e, #e27b36); */
+}
+
+.create {
+  font-size: 30px;
+  text-align: center;
+  color: #3c1414;
+}
+
+.price {
+  font-size: 30px;
+  color: #3c1414;
+}
