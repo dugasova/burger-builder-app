@@ -2,19 +2,6 @@ import styled from "styled-components";
 import Image from "../../Image";
 import Button from "../../Button";
 
-<<<<<<< HEAD
-const SingleControl = ({ingredient, quanttity}) => {
-    return (
-    <SingleControlStyled>
-        <Button action="decrement">-</Button>
-        {quanttity}
-        <Button action="increment">+</Button>
-        <Image name = {ingredient}/>
-
-    </SingleControlStyled>
-    );
-};
-=======
 const SingleControl = ({ingredient, quantity, updateBurger}) => {
     return (
     <SingleControlStyled
@@ -29,7 +16,6 @@ const SingleControl = ({ingredient, quantity, updateBurger}) => {
     );
 };
 
->>>>>>> HW-21
 const SingleControlStyled = styled.div ({
     textAlign: 'center',
 });

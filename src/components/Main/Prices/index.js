@@ -10,18 +10,6 @@ const Prices = ({allPrices}) => {
                     const {name: productName, price: productPrice} = price;
                     return (
                         <SinglePrice
-<<<<<<< HEAD
-                        key = {productName + productPrice}
-                        singleName = {productName}
-                        singlePrice = {productPrice} />
-                        );
-                    })}
-            </div>
-        </PricesStyled> 
-    )
-    
-    
-=======
                             key = {productName + productPrice}
                             singleName = {productName}
                             singlePrice = {productPrice} />
@@ -30,16 +18,10 @@ const Prices = ({allPrices}) => {
             </div>
         </PricesStyled> 
     )
->>>>>>> HW-21
 }
 const PricesStyled = styled.div({
     display: "flex",
     flexDirection: "column",
-<<<<<<< HEAD
-    // backgroundColor: "#
-    // background: "linear-gradient(90deg, #fcff9e 0%, #c67700 100%)",
-=======
->>>>>>> HW-21
     alignContent: "center",
     justifyContent: "center",
     width:"25%",
