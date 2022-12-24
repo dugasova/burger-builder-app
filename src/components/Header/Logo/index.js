@@ -3,7 +3,7 @@ import LogoImg from "./../../../assets/Logo.png";
 
 const Logo = () => {
   return (
-    <LogoStyled src={LogoImg} />
+    <LogoStyled src={LogoImg} alt="logo"/>
   );
 };
 

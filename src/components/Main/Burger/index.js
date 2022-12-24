@@ -1,24 +1,21 @@
 import styled from "styled-components";
 
-const Burger = ({ingredientsOrder,totalPrice}) => {
+const Burger = ({ingredientsOrder, totalPrice}) => {
     return (
         <BurgerStyled>
             <TotalStyled> Total price {totalPrice} UAH</TotalStyled>
             <BurgerWrapperStyled>
                 <TopBurgerStyled
-                src={require(`../../../assets/burgerItems/top_bun.png`)}
-                />
-                {!ingredientsOrder.length && (<PropositionStyled>
-                   Start adding ingredients
-                   </PropositionStyled>)}
-                    {ingredientsOrder.map((item, index) => {
+                src={require(`../../../assets/burgerItems/top_bun.png`)} />
+                {!ingredientsOrder.length && (<PropositionStyled> Start adding ingredients </PropositionStyled>)}
+                    {ingredientsOrder.map((item, idx) => {
                         return (
                             <ItemIMGStyled 
-                            key={item + index}
+                            key={item + idx}
                             src={require(`../../../assets/burgerItems/${item}.png`)}
                             alt={item}
-                            style={{ bottom: 95 + index * 9,
-                                zIndex: index + 1,}}
+                            style={{ bottom: 76 + idx * 9,
+                                zIndex: idx + 1,}}
                             />
                         );
                     })}
@@ -51,8 +48,9 @@ const BurgerWrapperStyled = styled.div({
 });
 
 const TopBurgerStyled = styled.img({
+    position: "relative",
     top: 0,
-    zIndex: "10000",
+    zIndex: "111",
     width: "300px",
 });
 
