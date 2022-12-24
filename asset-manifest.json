@@ -1,7 +1,15 @@
 {
   "files": {
-    "main.css": "/burger-builder-app/static/css/main.8164533c.css",
-    "main.js": "/burger-builder-app/static/js/main.d5c5af06.js",
+    "main.css": "/burger-builder-app/static/css/main.9b450b97.css",
+    "main.js": "/burger-builder-app/static/js/main.a34648d4.js",
+    "static/media/onion.png": "/burger-builder-app/static/media/onion.fe25a47afc0880679075.png",
+    "static/media/pickle.png": "/burger-builder-app/static/media/pickle.24765b8418ef344546f3.png",
+    "static/media/meat.png": "/burger-builder-app/static/media/meat.afa6e449acf92bf6943d.png",
+    "static/media/salad.png": "/burger-builder-app/static/media/salad.0fed13e43ef9ae5d2c69.png",
+    "static/media/bottom_bun.png": "/burger-builder-app/static/media/bottom_bun.f19ba0044d78fa8d7057.png",
+    "static/media/cheese.png": "/burger-builder-app/static/media/cheese.1ae8551b556787891d71.png",
+    "static/media/top_bun.png": "/burger-builder-app/static/media/top_bun.5d6f28bb7fb22d4e260e.png",
+    "static/media/tomato.png": "/burger-builder-app/static/media/tomato.5c9ae2ef6f989560f0ff.png",
     "static/media/salad.svg": "/burger-builder-app/static/media/salad.5b86138d220419b2f235.svg",
     "static/media/bacon.svg": "/burger-builder-app/static/media/bacon.eeca2d055efeb2ead659.svg",
     "static/media/tomato.svg": "/burger-builder-app/static/media/tomato.5ff892f87ea34319578d.svg",
@@ -11,13 +19,14 @@
     "static/media/meat.svg": "/burger-builder-app/static/media/meat.1b5ae1cc57abe78faa30.svg",
     "static/media/gilroy-bold-webfont.woff2": "/burger-builder-app/static/media/gilroy-bold-webfont.d84b042307cf47ce2165.woff2",
     "static/media/gilroy-regular-webfont.woff2": "/burger-builder-app/static/media/gilroy-regular-webfont.9cc2fab347dc9c873332.woff2",
-    "static/media/cheese.svg": "/burger-builder-app/static/media/cheese.de4ad9cfec1fec0a0b66.svg",
+    "static/media/cheese.svg": "/burger-builder-app/static/media/cheese.d40a462cb6fcd6495f20.svg",
+    "static/media/onion.svg": "/burger-builder-app/static/media/onion.d1f6bb682e36f36b3791.svg",
     "index.html": "/burger-builder-app/index.html",
-    "main.8164533c.css.map": "/burger-builder-app/static/css/main.8164533c.css.map",
-    "main.d5c5af06.js.map": "/burger-builder-app/static/js/main.d5c5af06.js.map"
+    "main.9b450b97.css.map": "/burger-builder-app/static/css/main.9b450b97.css.map",
+    "main.a34648d4.js.map": "/burger-builder-app/static/js/main.a34648d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.8164533c.css",
-    "static/js/main.d5c5af06.js"
+    "static/css/main.9b450b97.css",
+    "static/js/main.a34648d4.js"
   ]
 }
