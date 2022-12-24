@@ -48,7 +48,7 @@ class Main extends React.Component {
         event.preventDefault();
         const ingredientChoosed = event.target.parentNode.dataset["ingredient"] || event.target.dataset["ingredient"]
 
-        if ( !event.target.dataset["action"] || !event.target.dataset["ingredient"]) {
+        if (!event.target.dataset["action"] || !event.target.dataset["ingredient"]) {
             return
         }
 
