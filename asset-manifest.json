@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/burger-builder-app/static/css/main.9b450b97.css",
-    "main.js": "/burger-builder-app/static/js/main.a34648d4.js",
+    "main.js": "/burger-builder-app/static/js/main.71d87f5f.js",
     "static/media/onion.png": "/burger-builder-app/static/media/onion.fe25a47afc0880679075.png",
     "static/media/pickle.png": "/burger-builder-app/static/media/pickle.24765b8418ef344546f3.png",
     "static/media/meat.png": "/burger-builder-app/static/media/meat.afa6e449acf92bf6943d.png",
@@ -19,14 +19,14 @@
     "static/media/meat.svg": "/burger-builder-app/static/media/meat.1b5ae1cc57abe78faa30.svg",
     "static/media/gilroy-bold-webfont.woff2": "/burger-builder-app/static/media/gilroy-bold-webfont.d84b042307cf47ce2165.woff2",
     "static/media/gilroy-regular-webfont.woff2": "/burger-builder-app/static/media/gilroy-regular-webfont.9cc2fab347dc9c873332.woff2",
-    "static/media/cheese.svg": "/burger-builder-app/static/media/cheese.d40a462cb6fcd6495f20.svg",
+    "static/media/cheese.svg": "/burger-builder-app/static/media/cheese.d548a8502acf0abbd77c.svg",
     "static/media/onion.svg": "/burger-builder-app/static/media/onion.d1f6bb682e36f36b3791.svg",
     "index.html": "/burger-builder-app/index.html",
     "main.9b450b97.css.map": "/burger-builder-app/static/css/main.9b450b97.css.map",
-    "main.a34648d4.js.map": "/burger-builder-app/static/js/main.a34648d4.js.map"
+    "main.71d87f5f.js.map": "/burger-builder-app/static/js/main.71d87f5f.js.map"
   },
   "entrypoints": [
     "static/css/main.9b450b97.css",
-    "static/js/main.a34648d4.js"
+    "static/js/main.71d87f5f.js"
   ]
 }
