@@ -52,7 +52,7 @@ const BurgerWrapperStyled = styled.div({
 
 const TopBurgerStyled = styled.img({
     top: 0,
-    zIndex: "10",
+    zIndex: "10000",
     width: "300px",
 });
 
