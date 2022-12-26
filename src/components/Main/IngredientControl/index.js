@@ -1,19 +1,24 @@
 import styled from "styled-components";
 import SingleControl from "./SingleControl";
+import Loader from "../../Loader";
 
-const IngredientControl = ({ ingredients, updataBurger, burgerIngredients, clearBurger }) => {
+const IngredientControl = ({ ingredients, updataBurger, burgerIngredients, clearBurger, loading }) => {
     return (
         <IngredientControlStyled onClick={updataBurger}>
-            <h3 className="create">Create your own burg</h3> 
-           {
-            ingredients.map((ingredient) => (
-                <SingleControl 
-                    updataBurger={updataBurger}
-                    quantity={burgerIngredients[ingredient]}
-                    key={ingredient}
-                    ingredient={ingredient}/>
-           ))}
-           <ClearAllStyled onClick={clearBurger}>Clear all</ClearAllStyled>
+            <h3 className="create">Create your own burg</h3>
+            {loading && <Loader />}
+            {!loading && (
+              <>
+                {ingredients.map((ingredient) => (
+                    <SingleControl 
+                        updataBurger={updataBurger}
+                        quantity={burgerIngredients[ingredient]}
+                        key={ingredient}
+                        ingredient={ingredient}/>
+                    ))}
+                 <ClearAllStyled onClick={clearBurger}>Clear all</ClearAllStyled>
+                </> 
+                )}
         </IngredientControlStyled>
     );
 };

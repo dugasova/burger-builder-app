@@ -6,9 +6,9 @@ const Prices = ({allPrices, loading}) => {
     return (
         <PricesStyled>
             <PricesLoading>
+              <h3 className="price">Our price</h3>
               {loading && <Loader />}
               {!loading && (
-                // <h3 className="price">Our price</h3>
                 <>
                     {allPrices.map((price) => {
                      const {name: productName, price: productPrice} = price;
@@ -21,8 +21,6 @@ const Prices = ({allPrices, loading}) => {
                     })}
                 </>
               )}
-
-
             </PricesLoading>
         </PricesStyled> 
     )

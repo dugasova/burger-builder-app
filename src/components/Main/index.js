@@ -9,7 +9,7 @@ class Main extends React.Component {
     constructor() {
         super();
         this.state = {
-           loading: true,
+            loading: true,
             prices: [],
             ingredients: [],
             ingredientsOrder: [],
@@ -103,7 +103,7 @@ class Main extends React.Component {
         const {prices, ingredients, burgerBuilder, loading, ingredientsOrder, orderedPrice} = this.state;
         return (
             <MainWrapper>
-                <Prices allPrices={prices} />
+                <Prices allPrices={prices} loading={loading}/>
                 <Burger 
                 ingredientsOrder={ingredientsOrder}
                 totalPrice={orderedPrice}  />
@@ -112,7 +112,8 @@ class Main extends React.Component {
                     ingredients = {ingredients}
                     updataBurger = {this.changeIngredientQuantity}
                     burgerIngredients = {burgerBuilder}
-                    clearBurger={this.clearBurger}/>
+                    clearBurger={this.clearBurger}
+                    loading={loading} />
             </MainWrapper>
         )
     }
