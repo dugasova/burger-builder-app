@@ -1,3 +1,4 @@
+import { textTransform } from "@mui/system";
 import styled from "styled-components";
 const SinglePrice = ({singleName, singlePrice}) =>{
     return (
@@ -7,10 +8,10 @@ const SinglePrice = ({singleName, singlePrice}) =>{
     );
 };
 
-
 const SinglePriceStyled = styled.div({
     textAlign: " center",
     margin:" 20px 20px",
-    fontSize: "20px"
+    fontSize: "20px",
+    textTransform: "capitalize",
 })
 export default SinglePrice;

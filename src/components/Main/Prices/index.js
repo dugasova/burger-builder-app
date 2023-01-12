@@ -30,7 +30,7 @@ const PricesStyled = styled.div({
     display: "flex",
     flexDirection: "column",
     alignContent: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
     width:"25%",
     textAlign: 'center',
     color: "#3c1414"

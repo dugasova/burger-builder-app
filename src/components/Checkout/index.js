@@ -12,7 +12,7 @@ const style = {
     height: "50px",
     borderRadius: "20%",
     boxShadow: "2px 2px 2px #fff",
-    marginBottom: "200px"
+    marginBottom: "100px"
   }
 
 

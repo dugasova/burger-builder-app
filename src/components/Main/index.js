@@ -111,7 +111,7 @@ function Main () {
                     orderedPrice={orderedPrice}
                     handleFastDelivery={handleFastDelivery}
                     clearBurger={clearBurger}
-            />                
+            />
         </>
 
     )
@@ -121,11 +121,8 @@ const MainWrapper = styled.div({
     display: "flex",
     flexWrap: "no-wrap",
     jusifyContent: "space-between",
-    paddingTop: "50px",
-    width: "100%",
-    height: "80%",
+    paddingTop: "150px",
     alignContent: "center",
 });
-
 
 export default Main;

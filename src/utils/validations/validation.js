@@ -1,26 +1,15 @@
 const initValidations = () => {
     const errorRequired = " Required";
-    const errorValid = "Please enter valid  data";
+    const errorValid = "Please enter valid data";
 
     const validateName = (value) => {
         let error;
         if (!value) {
           error = errorRequired;
-        } else if (!/^[a-zA-Z]+ [a-zA-Z]+$/.test(value)) {
+        } else if (!/^[a-zA-Z]+$/.test(value)) {
             error = errorValid;
         }
           return error;
-    };
-    const alidateEmail = (value) => {
-        let error;
-        if (!value) {
-          error = errorRequired;
-        } else if (
-          !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)
-        ) {
-          error = errorValid;
-        }
-        return error;
     };
 
     const validatePhone = (value) => {
@@ -65,10 +54,6 @@ const initValidations = () => {
         validatePhone,
         validateAddress
       }
-    
-
-
-
 }
 
 export const validationRules = initValidations();
