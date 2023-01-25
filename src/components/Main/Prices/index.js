@@ -7,8 +7,7 @@ const Prices = ({allPrices, loading}) => {
         <PricesStyled>
             <PricesLoading>
               <h3 className="price">Our price</h3>
-              {loading && <Loader />}
-              {!loading && (
+              {loading ? (<Loader />) :(
                 <>
                     {allPrices.map((price) => {
                      const {name: productName, price: productPrice} = price;
@@ -20,7 +19,8 @@ const Prices = ({allPrices, loading}) => {
                         );
                     })}
                 </>
-              )}
+            )}
+            
             </PricesLoading>
         </PricesStyled> 
     )

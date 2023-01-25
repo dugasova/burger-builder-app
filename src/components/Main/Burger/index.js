@@ -13,7 +13,7 @@ const Burger = ({ingredientsOrder, totalPrice}) => {
                                 key={item + idx}
                                 src={require(`../../../assets/burgerItems/${item}.png`)}
                                 alt={item}
-                                style={{ bottom: 76 + idx * 9, zIndex: idx + 1,}}
+                                style={{ bottom: 46 + idx * 9, zIndex: idx + 1,}}
                             />
                         );
                     })}
@@ -45,7 +45,7 @@ const BurgerWrapperStyled = styled.div({
 const TopBurgerStyled = styled.img({
     position: "relative",
     top: 0,
-    zIndex: "111",
+    zIndex: "11",
     width: "300px",
 });
 

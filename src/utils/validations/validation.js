@@ -3,13 +3,13 @@ const initValidations = () => {
     const errorValid = "Please enter valid data";
 
     const validateName = (value) => {
-        let error;
-        if (!value) {
-          error = errorRequired;
-        } else if (!/^[a-zA-Z]+$/.test(value)) {
-            error = errorValid;
-        }
-          return error;
+      let error;
+      if (!value) {
+        error = errorRequired;
+      } else if (!/^[a-zA-Z]+$/.test(value)) {
+        error = errorValid;
+      }
+      return error;
     };
 
     const validatePhone = (value) => {

@@ -25,7 +25,7 @@ const Checkout = ({
 
     const [checkoutModalOpen, setCheckouModalOpen] = useState(false);
     
-    const CheckoutModalClose = () => {
+    const checkoutModalClose = () => {
         setCheckouModalOpen(false);
     };
 
@@ -40,7 +40,7 @@ const Checkout = ({
                     orderSummary={orderSummary}
                     orderedPrice={orderedPrice}
                     isOpen={checkoutModalOpen}
-                    handleClose={CheckoutModalClose}
+                    handleClose={checkoutModalClose}
                     handleFastDelivery={handleFastDelivery}
                     clearBurger={clearBurger}
                 />
@@ -60,7 +60,6 @@ const Checkout = ({
 const CheckoutStyled = styled.div({
     display: "flex",
     justifyContent: "space-around",
-    marginTop: "50px"
 });
 
 export default Checkout;

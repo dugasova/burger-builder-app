@@ -6,8 +6,7 @@ const IngredientControl = ({ ingredients, updataBurger, burgerIngredients, clear
     return (
         <IngredientControlStyled onClick={updataBurger}>
             <h3 className="create">Create your own burg</h3>
-            {loading && <Loader />}
-            {!loading && (
+            {loading ? (<Loader />) : (
               <>
                 {ingredients.map((ingredient) => (
                     <SingleControl 
@@ -18,7 +17,7 @@ const IngredientControl = ({ ingredients, updataBurger, burgerIngredients, clear
                     ))}
                  <ClearAllStyled onClick={clearBurger}>Clear all</ClearAllStyled>
                 </> 
-                )}
+            )}
         </IngredientControlStyled>
     );
 };

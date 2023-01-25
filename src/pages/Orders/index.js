@@ -55,8 +55,8 @@ const OrdersStyled = styled.div({
     width: "100%",
     display: "flex",
     flexDirection: "column",
+    alignItems: "center",
     marginTop: "20px",
-    marginLeft: "50px"
 });
 
 const SingleOrderStyled = styled.div({

@@ -6,11 +6,12 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-const style = { background: "linear-gradient(90deg, #f4bd57 0%, #d08412 100%)",
-                boxShadow: "2px 2px #fff"}
+const style = { 
+    background: "linear-gradient(90deg, #f4bd57 0%, #d08412 100%)", 
+    borderBottom: "2px solid #fff"
+}
 
 const FAQ = () => {
-  
   return (
     <FAQStyled >
         <div>
@@ -96,18 +97,15 @@ const FAQ = () => {
     </FAQStyled>
   );
 };
+
 const FAQStyled = styled.div({
-    marginTop: "50px",
-    marginLeft: "50px",
     display: "flex",
     flexBasis: "70%",
-    width: "800px",
-    alignContent: "center",
-    justifyContent: "space-between",
-    marginBottom: "250px"
-
+    width: "900px",
+    marginBottom: "250px",
+    marginLeft: "200px",
+    marginTop: "50px",
 });
        
-
 
 export default FAQ;

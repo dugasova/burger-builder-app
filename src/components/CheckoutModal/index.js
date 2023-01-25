@@ -59,10 +59,10 @@ const CheckoutModal = ({
             orderName,
             orderPhone,
             orderEmail,
+            orderFast: checked,
             orderAddress,
-            orderedPrice,
-            orderProduct: Object.fromEntries(burgerIngredients),
-            orderFastDelive: checked,
+            orderPrice: orderedPrice,
+            orderProducts: Object.fromEntries(burgerIngredients), 
         };
 
         try {

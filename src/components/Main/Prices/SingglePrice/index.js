@@ -1,4 +1,3 @@
-import { textTransform } from "@mui/system";
 import styled from "styled-components";
 const SinglePrice = ({singleName, singlePrice}) =>{
     return (
