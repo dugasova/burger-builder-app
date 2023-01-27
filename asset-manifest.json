@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/burger-builder-app/static/css/main.f53f9c26.css",
-    "main.js": "/burger-builder-app/static/js/main.3ab8c8f8.js",
-    "static/media/onion.png": "/burger-builder-app/static/media/onion.fe25a47afc0880679075.png",
+    "main.js": "/burger-builder-app/static/js/main.8495e57c.js",
     "static/media/pickle.png": "/burger-builder-app/static/media/pickle.24765b8418ef344546f3.png",
     "static/media/meat.png": "/burger-builder-app/static/media/meat.afa6e449acf92bf6943d.png",
     "static/media/salad.png": "/burger-builder-app/static/media/salad.0fed13e43ef9ae5d2c69.png",
+    "static/media/onion.png": "/burger-builder-app/static/media/onion.580bdfa2bc181c17594b.png",
     "static/media/bottom_bun.png": "/burger-builder-app/static/media/bottom_bun.f19ba0044d78fa8d7057.png",
     "static/media/cheese.png": "/burger-builder-app/static/media/cheese.1ae8551b556787891d71.png",
     "static/media/top_bun.png": "/burger-builder-app/static/media/top_bun.5d6f28bb7fb22d4e260e.png",
-    "static/media/tomato.png": "/burger-builder-app/static/media/tomato.5c9ae2ef6f989560f0ff.png",
+    "static/media/tomato.png": "/burger-builder-app/static/media/tomato.b74180f2b59f39a54318.png",
     "static/media/salad.svg": "/burger-builder-app/static/media/salad.5b86138d220419b2f235.svg",
     "static/media/bacon.svg": "/burger-builder-app/static/media/bacon.eeca2d055efeb2ead659.svg",
     "static/media/tomato.svg": "/burger-builder-app/static/media/tomato.5ff892f87ea34319578d.svg",
@@ -23,10 +23,10 @@
     "static/media/onion.svg": "/burger-builder-app/static/media/onion.d1f6bb682e36f36b3791.svg",
     "index.html": "/burger-builder-app/index.html",
     "main.f53f9c26.css.map": "/burger-builder-app/static/css/main.f53f9c26.css.map",
-    "main.3ab8c8f8.js.map": "/burger-builder-app/static/js/main.3ab8c8f8.js.map"
+    "main.8495e57c.js.map": "/burger-builder-app/static/js/main.8495e57c.js.map"
   },
   "entrypoints": [
     "static/css/main.f53f9c26.css",
-    "static/js/main.3ab8c8f8.js"
+    "static/js/main.8495e57c.js"
   ]
 }
