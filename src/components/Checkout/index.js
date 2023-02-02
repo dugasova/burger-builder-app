@@ -25,7 +25,7 @@ const Checkout = ({
 
     const [checkoutModalOpen, setCheckouModalOpen] = useState(false);
     
-    const CheckoutModalClose = () => {
+    const checkoutModalClose = () => {
         setCheckouModalOpen(false);
     };
 

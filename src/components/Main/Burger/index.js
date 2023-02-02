@@ -60,17 +60,6 @@ const TotalStyled = styled.h3({
     fontSize: "25px"
 });
 
-// const Checkout = styled.button ({
-//     marginTop: "20px",
-//     width: "60px",
-//     height:"50px",
-//     border: "none",
-//     borderRadius: "10%",
-//     alignItems: "center",
-//     cursor: "pointer",
-//     backgroundColor: "#D2691E",
-//     boxShadow: "2px 2px 2px #fff"
-// });
 
 const PropositionStyled = styled.p({
     textTransform: "uppercase",
