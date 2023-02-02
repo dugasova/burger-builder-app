@@ -2,7 +2,7 @@ import styled from "styled-components"
 const Image = ({name}) => {
     return (
         <ImageStyled
-        src = {require(`../../../assets/ingredients/${name}.svg`)} >
+            src = {require(`../../../assets/ingredients/${name}.svg`)} >
         </ImageStyled>
     );
 };

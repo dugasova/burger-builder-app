@@ -5,24 +5,19 @@ const Burger = ({ingredientsOrder, totalPrice}) => {
         <BurgerStyled>
             <TotalStyled> Total price {totalPrice} UAH</TotalStyled>
             <BurgerWrapperStyled>
-                <TopBurgerStyled
-                src={require(`../../../assets/burgerItems/top_bun.png`)} />
+                <TopBurgerStyled src={require(`../../../assets/burgerItems/top_bun.png`)} />
                 {!ingredientsOrder.length && (<PropositionStyled> Start adding ingredients </PropositionStyled>)}
                     {ingredientsOrder.map((item, idx) => {
                         return (
                             <ItemIMGStyled 
-                            key={item + idx}
-                            src={require(`../../../assets/burgerItems/${item}.png`)}
-                            alt={item}
-                            style={{ bottom: 76 + idx * 9,
-                                zIndex: idx + 1,}}
+                                key={item + idx}
+                                src={require(`../../../assets/burgerItems/${item}.png`)}
+                                alt={item}
+                                style={{ bottom: 76 + idx * 9, zIndex: idx + 1,}}
                             />
                         );
                     })}
-                <BottomBurgerStyled 
-                src={require(`../../../assets/burgerItems/bottom_bun.png`)}
-                alt="Bottom bun"/>
-             <Checkout>Checkout</Checkout>
+                <BottomBurgerStyled src={require(`../../../assets/burgerItems/bottom_bun.png`)} alt="Bottom bun"/>
             </BurgerWrapperStyled>
             </BurgerStyled>
     );
@@ -65,17 +60,7 @@ const TotalStyled = styled.h3({
     fontSize: "25px"
 });
 
-const Checkout = styled.button ({
-    marginTop: "20px",
-    width: "60px",
-    height:"50px",
-    border: "none",
-    borderRadius: "10%",
-    alignItems: "center",
-    cursor: "pointer",
-    backgroundColor: "#D2691E",
-    boxShadow: "2px 2px 2px #fff"
-});
+
 const PropositionStyled = styled.p({
     textTransform: "uppercase",
     position: "absolute",

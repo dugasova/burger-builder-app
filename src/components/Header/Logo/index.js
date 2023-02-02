@@ -8,7 +8,7 @@ const Logo = () => {
 };
 
 const LogoStyled = styled.img({
-  margin: "0 25px",
+  margin: "0 70px",
   width: "80px",
   height: "87px",
   textAlign: "center"
