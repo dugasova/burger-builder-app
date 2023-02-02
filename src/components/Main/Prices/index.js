@@ -1,24 +1,30 @@
 import styled from "styled-components";
-import SinglePrice from "./SingglePrice"
+import SinglePrice from "./SingglePrice";
+import Loader from "../../Loader";
 
-const Prices = ({allPrices}) => {
+const Prices = ({allPrices, loading}) => {
     return (
         <PricesStyled>
-          <h3 className="price">Our price</h3>
-            <div>
-                {allPrices.map((price) => {
-                    const {name: productName, price: productPrice} = price;
-                    return (
-                        <SinglePrice
-                            key = {productName + productPrice}
-                            singleName = {productName}
-                            singlePrice = {productPrice} />
-                    );
-                })}
-            </div>
+            <PricesLoading>
+              <h3 className="price">Our price</h3>
+              {loading ? (<Loader />) : (
+                <>
+                    {allPrices.map((price) => {
+                     const {name: productName, price: productPrice} = price;
+                        return (
+                            <SinglePrice
+                                key = {productName + productPrice}
+                                singleName = {productName}
+                                singlePrice = {productPrice} />
+                        );
+                    })}
+                </>
+              )}
+            </PricesLoading>
         </PricesStyled> 
     )
 }
+const PricesLoading = styled.div({})
 const PricesStyled = styled.div({
     display: "flex",
     flexDirection: "column",
