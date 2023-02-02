@@ -103,11 +103,7 @@ function Main () {
                     ingredients = {ingredients}
                     updataBurger = {changeIngredientQuantity}
                     burgerIngredients = {burgerBuilder}
-<<<<<<< HEAD
                     clearBurger={clearBurger}
-=======
-                    clearBurger={this.clearBurger}
->>>>>>> main
                     loading={loading} />
             </MainWrapper>
             <Checkout
@@ -115,7 +111,7 @@ function Main () {
                     orderedPrice={orderedPrice}
                     handleFastDelivery={handleFastDelivery}
                     clearBurger={clearBurger}
-            />                
+            />
         </>
 
     )
@@ -125,9 +121,7 @@ const MainWrapper = styled.div({
     display: "flex",
     flexWrap: "no-wrap",
     jusifyContent: "space-between",
-    paddingTop: "50px",
-    width: "100%",
-    height: "80%",
+    paddingTop: "150px",
     alignContent: "center",
 });
 

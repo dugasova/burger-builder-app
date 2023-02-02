@@ -2,11 +2,11 @@ import styled from "styled-components";
 import MenuItem from "./MenuItem";
 
 const Menu = () => {
-  const menuItems = ["Home", "Orders", "Contact", "FAQ"];
+  const menuItems = ["Home", "Orders", "Contacts", "FAQ"];
   return (
-    <MenuStyled>
-      {menuItems.map((item) => (
-        <MenuItem key={item}>{item}</MenuItem>
+    <MenuStyled className="menu">
+      {menuItems.map((item, index) => (
+        <MenuItem key={item + index}>{item}</MenuItem>
       ))}
     </MenuStyled>
   );

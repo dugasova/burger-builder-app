@@ -27,7 +27,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(90deg, #f4bd57 0%, #d08412 100%);
-  /* background: linear-gradient(#bc581e, #e27b36); */
 }
 
 .create {
@@ -58,6 +57,7 @@ body {
   border-color: #fff transparent #fff transparent;
   animation: lds-hourglass 1.2s infinite;
 }
+
 @keyframes lds-hourglass {
   0% {
     transform: rotate(0);
@@ -70,4 +70,23 @@ body {
   100% {
     transform: rotate(1800deg);
   }
+}
+
+.menu_item_active {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 4px;
+  color: #3c1414;
+  transition: none;
+  text-decoration: none;
+}
+
+.menu a {
+  font-size: 600;
+  color: #3c1414;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.menu a:last-child {
+  text-transform: uppercase;
 }

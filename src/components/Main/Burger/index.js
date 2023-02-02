@@ -13,7 +13,7 @@ const Burger = ({ingredientsOrder, totalPrice}) => {
                                 key={item + idx}
                                 src={require(`../../../assets/burgerItems/${item}.png`)}
                                 alt={item}
-                                style={{ bottom: 76 + idx * 9, zIndex: idx + 1,}}
+                                style={{ bottom: 46 + idx * 9, zIndex: idx + 1,}}
                             />
                         );
                     })}
@@ -45,7 +45,7 @@ const BurgerWrapperStyled = styled.div({
 const TopBurgerStyled = styled.img({
     position: "relative",
     top: 0,
-    zIndex: "111",
+    zIndex: "11",
     width: "300px",
 });
 
@@ -54,12 +54,10 @@ const BottomBurgerStyled = styled.img({
 });
 
 const TotalStyled = styled.h3({
-    paddingTop: "20px",
     paddingBottom: "20px",
     color: "#3c1414",
     fontSize: "25px"
 });
-
 
 const PropositionStyled = styled.p({
     textTransform: "uppercase",

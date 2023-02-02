@@ -8,7 +8,6 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import ElectricBoltOutlinedIcon from "@mui/icons-material/ElectricBoltOutlined";
-import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -60,15 +59,15 @@ const CheckoutModal = ({
             orderName,
             orderPhone,
             orderEmail,
+            orderFast: checked,
             orderAddress,
-            orderedPrice,
-            orderProduct: Object.fromEntries(burgerIngredients),
-            orderFastDelive: checked,
+            orderPrice: orderedPrice,
+            orderProducts: Object.fromEntries(burgerIngredients), 
         };
 
         try {
             setLoading(true);
-            await axios.post("https://burger-api-xcwp.onrender.com/orders",orderData);
+            await axios.post("https://burger-api-xcwp.onrender.com/orders", orderData);
             setLoading(false);
             setOrderStatus(true);
             clearBurger();
@@ -87,14 +86,14 @@ const CheckoutModal = ({
         maxWidth="md"
       >
         <DialogTitleStyled>Order</DialogTitleStyled>
-        <DialogContent>
+        <DialogContent style={{background: "linear-gradient(90deg, #f4bd57 0%, #d08412 100%"}}>
           <br />
           <br />
           {orderStatus ? (
             <OrderSuccessStyled>Order Success</OrderSuccessStyled>
           ) : (
             <>
-              <TableContainer component={Paper}>
+              <TableContainer component={Paper} style={{background: "linear-gradient(90deg, #f4bd57 0%, #d08412 100%"}}>
                 <Table>
                   <TableBody>
                     {rows.map((row) => (
@@ -121,7 +120,7 @@ const CheckoutModal = ({
                 initialValues={{
                   name: "",
                   email: "",
-                  phone: "+380",
+                  phone: "",
                   address: "",
                   isFast: false,
                 }}
@@ -212,7 +211,7 @@ const CheckoutModal = ({
                             onClick={handleClose}
                             variant="outlined"
                           >
-                            "cancel"
+                            cancel
                           </Button>
                           <Button
                             style={{
@@ -239,7 +238,7 @@ const CheckoutModal = ({
   };
   
   const DialogTitleStyled = styled(DialogTitle)({
-    background: "linear-gradient(180deg, #ebe4ac, transparent)",
+    background: "linear-gradient(#bc581e,#e27b36)",
     fontFamily: "Monsterrat Light !important",
     fontSize: "xxx-large !important",
     textAlign: "center",

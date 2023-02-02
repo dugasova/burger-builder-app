@@ -17,7 +17,7 @@ const IngredientControl = ({ ingredients, updataBurger, burgerIngredients, clear
                     ))}
                  <ClearAllStyled onClick={clearBurger}>Clear all</ClearAllStyled>
                 </> 
-                )}
+            )}
         </IngredientControlStyled>
     );
 };
