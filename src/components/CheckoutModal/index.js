@@ -79,7 +79,7 @@ const CheckoutModal = ({
         }
     };
     return (
-        <Dialog 
+        <Dialog
         open={isOpen}
         onClose={handleClose}
         fullWidth={true}

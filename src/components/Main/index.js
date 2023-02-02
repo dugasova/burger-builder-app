@@ -125,4 +125,5 @@ const MainWrapper = styled.div({
     alignContent: "center",
 });
 
+
 export default Main;
